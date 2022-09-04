@@ -7,7 +7,7 @@ public class iRobot extends Robot {
     public iRobot(String name)
     {
         super(name);
-        moveBehavior= new RunBehavior();
+        this.moveBehavior= new RunBehavior();
         character.add(" ()");
         character.add(">|<");
         character.add("/ \\");

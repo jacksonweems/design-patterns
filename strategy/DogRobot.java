@@ -7,7 +7,7 @@ public class DogRobot extends Robot {
     public DogRobot(String name)
     {
         super(name);
-        moveBehavior = new CrawlBehavior();
+        this.moveBehavior = new CrawlBehavior();
         character.add("++o");
     }
 
