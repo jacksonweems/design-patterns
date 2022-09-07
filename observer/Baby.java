@@ -33,7 +33,6 @@ public class Baby implements Subject{
         rand = new Random();
         int pick = rand.nextInt(love.length);
         System.out.println(this.name+love[pick]);
-
     }
 
     /**
