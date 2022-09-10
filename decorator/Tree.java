@@ -1,10 +1,21 @@
 package decorator;
+import java.util.ArrayList;
 
-public class Tree {
+public abstract class Tree {
+    protected ArrayList<String> lines;
 
-    public Tree()
+    public Tree(ArrayList<String> lines)
     {
-        
+        //this.lines = new ArrayList<String>();
+        this.lines = lines;
+    }
+
+    public String toString()
+    {
+       for(int j = 0; j < lines; j++)
+       {
+
+       }
     }
 
 }
