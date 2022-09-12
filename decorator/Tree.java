@@ -6,16 +6,20 @@ public abstract class Tree {
 
     public Tree(ArrayList<String> lines)
     {
-        //this.lines = new ArrayList<String>();
         this.lines = lines;
     }
 
+        /**
+ * Loops through and displays a tree
+ */
     public String toString()
     {
-       for(int j = 0; j < lines; j++)
-       {
-
-       }
+        String myLines = new String();
+        for(String line : lines)
+        {
+            myLines += line + " \n";
+        }
+        return myLines;
     }
 
 }
