@@ -14,7 +14,7 @@ public class FruitLoops extends Cereal{
         toys.add("Silly Putty");
         toys.add("Tiny car");
 		
-	}
+     }
     
     /**
  * Represents the specific preparations for the fruit loops
