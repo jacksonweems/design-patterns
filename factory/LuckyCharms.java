@@ -14,7 +14,7 @@ public class LuckyCharms extends Cereal {
         toys.add("Play doe");
         toys.add("Tiny truck");
 		
-	}
+    }
     
     /**
  * Represents the specific preparations for the lucky charms
