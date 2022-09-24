@@ -1,6 +1,7 @@
 package iterator;
 
-public class Course {
+public class Course 
+{
      private Assignment [] assignments = new Assignment [5];
      private int count = 0;
      private String name;

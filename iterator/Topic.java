@@ -1,6 +1,6 @@
 package iterator;
 
-public enum Topic {
-    
+public enum Topic 
+{   
     ALL, PROJECT, DESIGN_PATTERN, GIT
 }
