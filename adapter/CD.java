@@ -21,7 +21,7 @@ public CD(ArrayList<String> songs)
 public String playFromBeginning()
 {
     currentIndex = 0;
-    return "Playing song "+currentIndex+" "+songs.get(currentIndex);
+        return "Playing song "+currentIndex+" "+songs.get(currentIndex);
 }
 /**
  * plays song
@@ -30,13 +30,10 @@ public String playFromBeginning()
 public String playSong(int num)
 {
     if(songs.get(num)!=null&&num>0&&songs.size()<num)
-    {
-    return "Playing "+songs.get(num-1);
-    }
+        return "Playing "+songs.get(num-1);
     else
-    {
-    return "Not a valid song number";
-    }
+        return "Not a valid song number";
+    
 
 }
 /**
@@ -46,7 +43,7 @@ public String playSong(int num)
 public String prevSong()
 {
     currentIndex = currentIndex-1;
-    return "Skipping back and playing: " +songs.get(currentIndex-1);
+        return "Skipping back and playing: " +songs.get(currentIndex-1);
 }
 /**
  * plays next song
@@ -55,7 +52,7 @@ public String prevSong()
 public String nextSong()
 {
     currentIndex++;
-    return "Playing "+currentIndex+": "+songs.get(currentIndex-1);
+        return "Playing "+currentIndex+": "+songs.get(currentIndex-1);
 }
 /**
  * arraylist is null
@@ -64,7 +61,7 @@ public String nextSong()
 public String stop()
 {
     songs = null;
-    return "Stopping";
+        return "Stopping";
 }
 public String pause()
 {

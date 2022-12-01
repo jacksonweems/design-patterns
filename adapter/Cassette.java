@@ -31,15 +31,15 @@ public String rewind()
     if(currentIndex-1>=0)
     {
         currentIndex = currentIndex-1;
-        return "Rewinding to song "+(currentIndex+1);
+            return "Rewinding to song "+(currentIndex+1);
     }
     else if(currentIndex-1==0)
     {
         currentIndex = currentIndex-1;
-        return "Fully Re-wound";
+            return "Fully Re-wound";
     }
     else
-    return "Can't rewind anymore";   
+        return "Can't rewind anymore";   
 }
 /**
  * plays next song
@@ -52,7 +52,7 @@ public String ffwd()
         return "At the end of the cassette you need to rewind";
     }
     else if(currentIndex<songs.size())
-    currentIndex++;
+        currentIndex++;
     int temp = currentIndex+1;
     if(currentIndex==songs.size())
         return "Forward to the end of the cassette";
@@ -70,6 +70,6 @@ public String pause()
 public String stopEject()
 {
     songs = null;
-    return "Stopping cassette and ejecting";
+        return "Stopping cassette and ejecting";
 }
 }
